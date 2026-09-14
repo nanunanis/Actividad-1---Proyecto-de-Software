@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#d58a42"/>
+  <circle cx="400" cy="220" r="130" fill="#f8e4c9" opacity="0.75"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="110">🐈</text>
+  <text x="400" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="bold" fill="#563522">SIMBA</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#563522">Mascota perdida - imagen representativa</text>
+</svg>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas Perdidas - Encontrémoslas</title>
+    <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>🐾 Mascotas Perdidas</h1>
+            <p>Ayudanos a encontrar a nuestros compañeros</p>
+        </div>
+    </header>
+
+    <nav class="navegacion">
+        <div class="contenedor nav-contenido">
+            <a href="#inicio">Inicio</a>
+            <a href="#mascotas">Mascotas perdidas</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#mantenedor">Quién mantiene el sitio</a>
+        </div>
+    </nav>
+
+    <main id="inicio">
+        <section class="hero">
+            <div class="contenedor">
+                <h2>Ayudemos a que vuelvan a casa</h2>
+                <p>
+                    En este sitio publicamos información de mascotas perdidas.
+                    Seleccioná una categoría para consultar los casos correspondientes.
+                </p>
+                <a class="boton" href="#mascotas">Ver mascotas</a>
+            </div>
+        </section>
+
+        <section id="mascotas" class="seccion mascotas">
+            <div class="contenedor">
+                <h2>Mascotas perdidas</h2>
+                <p class="introduccion">
+                    Elegí una categoría. La navegación funciona únicamente con HTML y CSS,
+                    sin JavaScript.
+                </p>
+
+                <!-- Interacción estática mediante radio buttons y CSS -->
+                <div class="selector-categorias">
+                    <input type="radio" name="categoria" id="todos" checked>
+                    <label for="todos">Todas</label>
+
+                    <input type="radio" name="categoria" id="perros">
+                    <label for="perros">Perros</label>
+
+                    <input type="radio" name="categoria" id="gatos">
+                    <label for="gatos">Gatos</label>
+                </div>
+
+                <div class="galeria">
+                    <!-- PERROS -->
+                    <article class="tarjeta perro">
+                        <img src="imagenes/perro-luna.svg" alt="Foto de Luna, perra perdida">
+                        <div class="contenido-tarjeta">
+                            <span class="categoria">Perro</span>
+                            <h3>Luna</h3>
+                            <p><strong>Descripción:</strong> Hembra, tamaño mediano, pelaje marrón claro y collar rojo.</p>
+                            <p><strong>Zona:</strong> Parque Saavedra.</p>
+                            <a class="boton-secundario" href="info/perro-luna.pdf" target="_blank">Ver información completa</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta perro">
+                        <img src="imagenes/perro-toby.svg" alt="Foto de Toby, perro perdido">
+                        <div class="contenido-tarjeta">
+                            <span class="categoria">Perro</span>
+                            <h3>Toby</h3>
+                            <p><strong>Descripción:</strong> Macho, grande, pelaje negro con una mancha blanca en el pecho.</p>
+                            <p><strong>Zona:</strong> Barrio Norte.</p>
+                            <a class="boton-secundario" href="info/perro-toby.pdf" target="_blank">Ver información completa</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta perro">
+                        <img src="imagenes/perro-rocky.svg" alt="Foto de Rocky, perro perdido">
+                        <div class="contenido-tarjeta">
+                            <span class="categoria">Perro</span>
+                            <h3>Rocky</h3>
+                            <p><strong>Descripción:</strong> Macho, pequeño, pelaje blanco y marrón, orejas caídas.</p>
+                            <p><strong>Zona:</strong> Plaza Moreno.</p>
+                            <a class="boton-secundario" href="info/perro-rocky.pdf" target="_blank">Ver información completa</a>
+                        </div>
+                    </article>
+
+                    <!-- GATOS -->
+                    <article class="tarjeta gato">
+                        <img src="imagenes/gato-milo.svg" alt="Foto de Milo, gato perdido">
+                        <div class="contenido-tarjeta">
+                            <span class="categoria">Gato</span>
+                            <h3>Milo</h3>
+                            <p><strong>Descripción:</strong> Macho, pelaje gris atigrado, ojos verdes y collar azul.</p>
+                            <p><strong>Zona:</strong> Centro.</p>
+                            <a class="boton-secundario" href="info/gato-milo.pdf" target="_blank">Ver información completa</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta gato">
+                        <img src="imagenes/gato-nina.svg" alt="Foto de Nina, gata perdida">
+                        <div class="contenido-tarjeta">
+                            <span class="categoria">Gato</span>
+                            <h3>Nina</h3>
+                            <p><strong>Descripción:</strong> Hembra, pequeña, pelaje blanco con manchas negras y ojos amarillos.</p>
+                            <p><strong>Zona:</strong> Barrio La Loma.</p>
+                            <a class="boton-secundario" href="info/gato-nina.pdf" target="_blank">Ver información completa</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta gato">
+                        <img src="imagenes/gato-simba.svg" alt="Foto de Simba, gato perdido">
+                        <div class="contenido-tarjeta">
+                            <span class="categoria">Gato</span>
+                            <h3>Simba</h3>
+                            <p><strong>Descripción:</strong> Macho, tamaño mediano, pelaje naranja atigrado y sin collar.</p>
+                            <p><strong>Zona:</strong> Villa Elvira.</p>
+                            <a class="boton-secundario" href="info/gato-simba.pdf" target="_blank">Ver información completa</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion contacto">
+            <div class="contenedor">
+                <h2>Información de contacto</h2>
+                <div class="contacto-grid">
+                    <div class="contacto-info">
+                        <h3>¿Viste alguna de estas mascotas?</h3>
+                        <p>Completá el formulario con la mayor cantidad de información posible.</p>
+                        <p><strong>Email:</strong> contacto@mascotasperdidas.com</p>
+                        <p><strong>Teléfono:</strong> (0221) 555-1234</p>
+                    </div>
+
+                    <form class="formulario" action="#" method="post">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com">
+
+                        <label for="categoria-contacto">Categoría</label>
+                        <select id="categoria-contacto" name="categoria">
+                            <option value="">Seleccioná una opción</option>
+                            <option value="perro">Perro</option>
+                            <option value="gato">Gato</option>
+                        </select>
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos lo que viste..."></textarea>
+
+                        <button type="submit">Enviar información</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="mantenedor" class="seccion mantenedor">
+            <div class="contenedor">
+                <h2>Quién mantiene el sitio</h2>
+                <div class="tarjeta-mantenedor">
+                    <div class="icono">🐶🐱</div>
+                    <div>
+                        <h3>Equipo Mascotas Perdidas</h3>
+                        <p>
+                            Este sitio es mantenido por un equipo de voluntarios que reúne,
+                            organiza y publica información sobre mascotas perdidas para facilitar
+                            el reencuentro con sus familias.
+                        </p>
+                        <p><strong>Actualización:</strong> la información se incorpora a medida que recibimos nuevos avisos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p>🐾 Mascotas Perdidas · Sitio web estático desarrollado únicamente con HTML y CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
