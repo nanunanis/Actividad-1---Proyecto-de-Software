@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Foto de Luna, gata blanca con manchas naranjas">
+  <rect width="200" height="200" fill="#f5ead6"/>
+  <circle cx="100" cy="108" r="58" fill="#ffffff"/>
+  <ellipse cx="88" cy="96" rx="16" ry="20" fill="#f2a65a" transform="rotate(-18 88 96)"/>
+  <ellipse cx="118" cy="128" rx="18" ry="12" fill="#f2a65a" transform="rotate(12 118 128)"/>
+  <polygon points="58,66 46,38 76,58" fill="#ffffff"/>
+  <polygon points="142,66 154,38 124,58" fill="#ffffff"/>
+  <polygon points="58,66 40,78 68,82" fill="#ffb3c1"/>
+  <polygon points="142,66 160,78 132,82" fill="#ffb3c1"/>
+  <circle cx="84" cy="110" r="6" fill="#6ab7d6"/>
+  <circle cx="116" cy="110" r="6" fill="#6ab7d6"/>
+  <circle cx="84" cy="110" r="2.5" fill="#000"/>
+  <circle cx="116" cy="110" r="2.5" fill="#000"/>
+  <ellipse cx="100" cy="128" rx="5" ry="4" fill="#f7b7c3"/>
+  <rect x="88" y="146" width="24" height="30" rx="6" fill="#ffffff"/>
+</svg>

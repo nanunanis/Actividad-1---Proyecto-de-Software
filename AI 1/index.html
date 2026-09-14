@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mascotas Perdidas</title>
+  <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <a href="#inicio" class="logo">&#128062; Mascotas Perdidas</a>
+    <nav class="barra">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#seccion-mascotas">Mascotas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+
+    <section class="portada">
+      <h1>Ayudanos a encontrar a nuestras mascotas</h1>
+      <p>Seleccioná una categoría y conocé los datos de cada animal perdido. Cualquier información nos ayuda.</p>
+    </section>
+
+    <section id="seccion-mascotas" class="mascotas">
+      <h2>Mascotas perdidas</h2>
+
+      <input type="radio" name="categoria" id="perros" value="perros" checked>
+      <input type="radio" name="categoria" id="gatos" value="gatos">
+      <div class="selector">
+        <label for="perros" class="boton-categoria">Perros</label>
+        <label for="gatos" class="boton-categoria">Gatos</label>
+      </div>
+
+      <div class="grupo-gatos">
+        <h3 class="titulo-categoria">Gatos perdidos</h3>
+        <div class="contenedor-tarjetas">
+          <article class="tarjeta">
+            <a href="info/michi.pdf" class="foto">
+              <img src="imágenes/gato-michi.svg" alt="Foto de Michi" class="imagen-mascota">
+            </a>
+            <h4>Michi</h4>
+            <p class="descripcion">Gato negro de ojos verdes, macho, castrado, de 3 años. Se perdió en el barrio centro. Responde al nombre de Michi.</p>
+            <a href="info/michi.pdf" class="enlace-info">Ver más información</a>
+          </article>
+
+          <article class="tarjeta">
+            <a href="info/luna.pdf" class="foto">
+              <img src="imágenes/gato-luna.svg" alt="Foto de Luna" class="imagen-mascota">
+            </a>
+            <h4>Luna</h4>
+            <p class="descripcion">Gata blanca con manchas naranjas, hembra, de 1 año. Tímida, se asusta con los ruidos. Se la vio por última vez cerca de la plaza.</p>
+            <a href="info/luna.pdf" class="enlace-info">Ver más información</a>
+          </article>
+
+          <article class="tarjeta">
+            <a href="info/sombra.pdf" class="foto">
+              <img src="imágenes/gato-sombra.svg" alt="Foto de Sombra" class="imagen-mascota">
+            </a>
+            <h4>Sombra</h4>
+            <p class="descripcion">Gato gris atigrado, macho, de 5 años. Muy cariñoso y maullador. Usa collar rojo. Se escapó de casa el fin de semana pasado.</p>
+            <a href="info/sombra.pdf" class="enlace-info">Ver más información</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="grupo-perros">
+        <h3 class="titulo-categoria">Perros perdidos</h3>
+        <div class="contenedor-tarjetas">
+          <article class="tarjeta">
+            <a href="info/rocky.pdf" class="foto">
+              <img src="imágenes/perro-rocky.svg" alt="Foto de Rocky" class="imagen-mascota">
+            </a>
+            <h4>Rocky</h4>
+            <p class="descripcion">Perro mestizo de tamaño mediano, color marrón, macho, de 4 años. Muy juguetón. Lleva una chapita con su nombre.</p>
+            <a href="info/rocky.pdf" class="enlace-info">Ver más información</a>
+          </article>
+
+          <article class="tarjeta">
+            <a href="info/toby.pdf" class="foto">
+              <img src="imágenes/perro-toby.svg" alt="Foto de Toby" class="imagen-mascota">
+            </a>
+            <h4>Toby</h4>
+            <p class="descripcion">Beagle de 2 años, tricolor, macho. Se perdió durante un paseo por la costanera. Responde a silbidos.</p>
+            <a href="info/toby.pdf" class="enlace-info">Ver más información</a>
+          </article>
+
+          <article class="tarjeta">
+            <a href="info/pepa.pdf" class="foto">
+              <img src="imágenes/perro-pepa.svg" alt="Foto de Pepa" class="imagen-mascota">
+            </a>
+            <h4>Pepa</h4>
+            <p class="descripcion">Perra caniche de pelo blanco, hembra, de 6 años. Usa moño rosado. Necesita medicación diaria. Extrañamos mucho su presencia.</p>
+            <a href="info/pepa.pdf" class="enlace-info">Ver más información</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>Si viste alguna de estas mascotas, por favor comunicate con nosotros completando el siguiente formulario.</p>
+      <form action="#" method="get" class="formulario">
+        <label for="nombre">Nombre y apellido</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresá tu nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ej.: 11 5555 1234">
+
+        <label for="mascota">Mascota que viste</label>
+        <select id="mascota" name="mascota">
+          <option value="michi">Michi (gato)</option>
+          <option value="luna">Luna (gata)</option>
+          <option value="sombra">Sombra (gato)</option>
+          <option value="rocky">Rocky (perro)</option>
+          <option value="toby">Toby (perro)</option>
+          <option value="pepa">Pepa (perra)</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos dónde y cuándo la viste..."></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="quienes-somos" class="quienes-somos">
+      <h2>Quiénes somos</h2>
+      <p>Este sitio es mantenido por un grupo de vecinos voluntarios de la ciudad, comprometidos con el bienestar animal.</p>
+      <p>Trabajamos junto a refugios y protectoras para reunir a las familias con sus mascotas. Actualizamos el listado a medida que recibimos información de los dueños.</p>
+      <p>Contacto general: <strong>contacto@mascotasperdidas.org</strong></p>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p>Mascotas Perdidas &copy; 2026 &mdash; Sitio estático de ayuda comunitaria.</p>
+  </footer>
+
+</body>
+</html>

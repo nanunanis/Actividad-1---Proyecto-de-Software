@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Foto de Rocky, perro mestizo marrón">
+  <rect width="200" height="200" fill="#ece4d4"/>
+  <ellipse cx="100" cy="170" rx="80" ry="28" fill="#7a5226"/>
+  <ellipse cx="100" cy="128" rx="62" ry="56" fill="#9a6b2f"/>
+  <circle cx="62" cy="96" r="20" fill="#9a6b2f"/>
+  <circle cx="138" cy="96" r="20" fill="#9a6b2f"/>
+  <ellipse cx="100" cy="104" rx="34" ry="28" fill="#c08a4a"/>
+  <ellipse cx="100" cy="102" rx="16" ry="14" fill="#5a3b1a"/>
+  <circle cx="81" cy="90" r="8" fill="#2b1a0a"/>
+  <circle cx="119" cy="90" r="8" fill="#2b1a0a"/>
+  <circle cx="83.5" cy="88" r="2.5" fill="#fff"/>
+  <circle cx="121.5" cy="88" r="2.5" fill="#fff"/>
+  <circle cx="93" cy="100" r="2.5" fill="#2b1a0a"/>
+  <circle cx="107" cy="100" r="2.5" fill="#2b1a0a"/>
+  <ellipse cx="100" cy="108" rx="11" ry="7" fill="#3a2410"/>
+  <path d="M100 112 q6 6 0 14 q-6 -8 0 -14" fill="#d96a63"/>
+  <rect x="92" y="150" width="16" height="18" rx="4" fill="#7a5226"/>
+</svg>

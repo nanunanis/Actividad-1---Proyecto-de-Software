@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Foto de Toby, perro beagle tricolor">
+  <rect width="200" height="200" fill="#ede4d2"/>
+  <ellipse cx="100" cy="168" rx="82" ry="28" fill="#f5f2ea"/>
+  <ellipse cx="100" cy="130" rx="62" ry="56" fill="#f5f2ea"/>
+  <ellipse cx="100" cy="120" rx="60" ry="42" fill="#6b4920"/>
+  <circle cx="100" cy="96" rx="36" ry="30" fill="#f5f2ea"/>
+  <ellipse cx="88" cy="104" rx="22" ry="18" fill="#6b4920" transform="rotate(-14 88 104)"/>
+  <circle cx="62" cy="96" r="20" fill="#1d1a17"/>
+  <circle cx="138" cy="96" r="20" fill="#1d1a17"/>
+  <ellipse cx="100" cy="104" rx="16" ry="13" fill="#5c3d17"/>
+  <circle cx="81" cy="90" r="8" fill="#2b1a0a"/>
+  <circle cx="119" cy="90" r="8" fill="#2b1a0a"/>
+  <circle cx="83.5" cy="88" r="2.5" fill="#fff"/>
+  <circle cx="121.5" cy="88" r="2.5" fill="#fff"/>
+  <circle cx="93" cy="99" r="2.5" fill="#2b1a0a"/>
+  <circle cx="107" cy="99" r="2.5" fill="#2b1a0a"/>
+  <ellipse cx="100" cy="108" rx="11" ry="6" fill="#3a2410"/>
+  <path d="M100 112 q6 6 0 14 q-6 -8 0 -14" fill="#d96a63"/>
+  <rect x="90" y="150" width="20" height="16" rx="4" fill="#f5f2ea"/>
+</svg>

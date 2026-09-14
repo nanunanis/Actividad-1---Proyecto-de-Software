@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Foto de Michi, gato negro">
+  <rect width="200" height="200" fill="#e8e0d2"/>
+  <circle cx="100" cy="108" r="58" fill="#2b2b2b"/>
+  <polygon points="58,66 46,38 76,58" fill="#2b2b2b"/>
+  <polygon points="142,66 154,38 124,58" fill="#2b2b2b"/>
+  <polygon points="58,66 40,78 68,82" fill="#ffb3c1"/>
+  <polygon points="142,66 160,78 132,82" fill="#ffb3c1"/>
+  <circle cx="84" cy="110" r="6" fill="#e8862e"/>
+  <circle cx="116" cy="110" r="6" fill="#e8862e"/>
+  <circle cx="84" cy="110" r="2.5" fill="#000"/>
+  <circle cx="116" cy="110" r="2.5" fill="#000"/>
+  <ellipse cx="100" cy="128" rx="5" ry="4" fill="#3d3d3d"/>
+  <rect x="88" y="146" width="24" height="30" rx="6" fill="#2b2b2b"/>
+</svg>

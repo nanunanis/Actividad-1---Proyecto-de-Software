@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Foto de Pepa, perra caniche blanca con moño rosado">
+  <rect width="200" height="200" fill="#f2ecdc"/>
+  <ellipse cx="100" cy="168" rx="72" ry="26" fill="#f7f7f7"/>
+  <circle cx="100" cy="140" r="46" fill="#f7f7f7"/>
+  <circle cx="58" cy="120" r="14" fill="#f7f7f7"/>
+  <circle cx="142" cy="120" r="14" fill="#f7f7f7"/>
+  <circle cx="64" cy="92" r="16" fill="#f7f7f7"/>
+  <circle cx="136" cy="92" r="16" fill="#f7f7f7"/>
+  <ellipse cx="100" cy="100" rx="30" ry="26" fill="#f7f7f7"/>
+  <circle cx="84" cy="92" r="7" fill="#1d1a17"/>
+  <circle cx="116" cy="92" r="7" fill="#1d1a17"/>
+  <circle cx="86" cy="90" r="2.5" fill="#fff"/>
+  <circle cx="118" cy="90" r="2.5" fill="#fff"/>
+  <ellipse cx="100" cy="104" rx="9" ry="6" fill="#e7c9d8"/>
+  <path d="M100 103 q5 5 0 11 q-5 -6 0 -11" fill="#5c3a4a"/>
+  <g transform="translate(150 52)">
+    <ellipse cx="0" cy="0" rx="14" ry="8" fill="#ff7ba9" transform="rotate(-30 0 0)"/>
+    <ellipse cx="12" cy="-6" rx="12" ry="7" fill="#ff7ba9" transform="rotate(30 12 -6)"/>
+    <circle cx="6" cy="-4" r="4" fill="#e8566d"/>
+  </g>
+</svg>
